@@ -1,4 +1,8 @@
-title: "Zitlali"
+title: "Your Name"
 description: "A personal literary archive"
-theme: minima
+collections:
+  poems:
+    output: true
+    permalink: /:collection/:title/
 markdown: kramdown
+theme: minima
